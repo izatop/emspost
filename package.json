@@ -1,0 +1,22 @@
+{
+  "name": "emspost",
+  "version": "0.0.1",
+  "description": "EMS API",
+  "repository": "izatop/emspost",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "ems",
+    "emspost",
+    "ems",
+    "api",
+    "api"
+  ],
+  "author": "izatop@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.61.0"
+  }
+}
