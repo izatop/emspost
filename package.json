@@ -1,6 +1,6 @@
 {
   "name": "emspost",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "EMS API",
   "repository": "izatop/emspost",
   "main": "index.js",
