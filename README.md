@@ -12,16 +12,16 @@ npm install emspost --save
 
 ## Example
 ```js
-    var emspost = require('emspost');
-    emspost.echo().then(function (result) {
-        if (result) {
-            console.log('service is available');
-        } else {
-            console.log('service isn\'t available');
-        }
-    }).catch(function (error) {
-        console.log('something wrongs...');
-    });
+var emspost = require('emspost');
+emspost.echo().then(function (result) {
+    if (result) {
+        console.log('service is available');
+    } else {
+        console.log('service isn\'t available');
+    }
+}).catch(function (error) {
+    console.log('something wrongs...');
+});
 ```
 
 ## API Methods
