@@ -20,8 +20,8 @@ emspost.echo().then(function (result) {
         console.log('service isn\'t available');
     }
 }).catch(function (error) {
-    console.log('something wrongs...');
-});
+    console.log('something went wrong...');
+})
 ```
 
 ## API Methods
@@ -33,7 +33,7 @@ Example:
 ```js
 api.getCountries().then(function (result) {
     console.log(result);
-});
+})
 ```
 
 Result:
@@ -51,12 +51,10 @@ Result:
 Example:
 
 ```js
-api.getRegions()
-    .then(function (result) {
-        "use strict";
-        console.log("getRegions", result);
-    })
-    .catch(error);
+api.getRegions().then(function (result) {
+    "use strict";
+    console.log("getRegions", result);
+})
 ```
 
 Result:
@@ -74,12 +72,10 @@ Result:
 Example:
 
 ```js
-api.getCities()
-    .then(function (result) {
-        "use strict";
-        console.log("getCities", result);
-    })
-    .catch(error);
+api.getCities().then(function (result) {
+    "use strict";
+    console.log("getCities", result);
+})
 ```
 
 Result:
@@ -97,12 +93,10 @@ Result:
 Example:
 
 ```js
-api.getMaxWeight()
-    .then(function (result) {
-        "use strict";
-        console.log("getMaxWeight", result);
-    })
-    .catch(error);
+api.getMaxWeight().then(function (result) {
+    "use strict";
+    console.log("getMaxWeight", result);
+})
 ```
 
 ### Calculate delivery price
@@ -126,7 +120,6 @@ api.calculate({from: "city--moskva", to: "city--murmansk", weight: 1})
         "use strict";
         console.log('calculate', result);
     })
-    .catch(error);
 ```
 
 Result:
