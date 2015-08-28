@@ -31,7 +31,7 @@ emspost.echo().then(function (result) {
 Example:
 
 ```js
-api.getCountries().then(function (result) {
+emspost.getCountries().then(function (result) {
     console.log(result);
 })
 ```
@@ -51,7 +51,7 @@ Result:
 Example:
 
 ```js
-api.getRegions().then(function (result) {
+emspost.getRegions().then(function (result) {
     console.log("getRegions", result);
 })
 ```
@@ -71,7 +71,7 @@ Result:
 Example:
 
 ```js
-api.getCities().then(function (result) {
+emspost.getCities().then(function (result) {
     console.log("getCities", result);
 })
 ```
@@ -91,7 +91,7 @@ Result:
 Example:
 
 ```js
-api.getMaxWeight().then(function (result) {
+emspost.getMaxWeight().then(function (result) {
     console.log("getMaxWeight", result);
 })
 ```
@@ -112,7 +112,7 @@ Method has one argument `CalculateProperty` that contains the following properti
 Example:
 
 ```js
-api.calculate({from: "city--moskva", to: "city--murmansk", weight: 1})
+emspost.calculate({from: "city--moskva", to: "city--murmansk", weight: 1})
     .then(function (result) {
         console.log('calculate', result);
     })
