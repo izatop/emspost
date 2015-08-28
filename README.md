@@ -52,7 +52,6 @@ Example:
 
 ```js
 api.getRegions().then(function (result) {
-    "use strict";
     console.log("getRegions", result);
 })
 ```
@@ -73,7 +72,6 @@ Example:
 
 ```js
 api.getCities().then(function (result) {
-    "use strict";
     console.log("getCities", result);
 })
 ```
@@ -94,7 +92,6 @@ Example:
 
 ```js
 api.getMaxWeight().then(function (result) {
-    "use strict";
     console.log("getMaxWeight", result);
 })
 ```
@@ -117,7 +114,6 @@ Example:
 ```js
 api.calculate({from: "city--moskva", to: "city--murmansk", weight: 1})
     .then(function (result) {
-        "use strict";
         console.log('calculate', result);
     })
 ```
