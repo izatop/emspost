@@ -1,8 +1,7 @@
 emspost
 =======
 
-This is an Promise-based API library that provides access to EMS Russian Post API. 
-More information about EMS Russian Post API you can see on [their website](http://www.emspost.ru/ru/corp_clients/dogovor_docements/api/).
+This is a NodeJS library for EMS Russian Post API. [Get more about the API](http://www.emspost.ru/ru/corp_clients/dogovor_docements/api/).
 
 ## Install
 

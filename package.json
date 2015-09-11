@@ -1,7 +1,7 @@
 {
   "name": "emspost",
-  "version": "0.0.4",
-  "description": "EMS API",
+  "version": "0.0.5",
+  "description": "EMS Post API for NodeJS",
   "repository": "izatop/emspost",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,8 @@
   "keywords": [
     "ems",
     "emspost",
-    "ems",
     "api",
-    "api"
+    "emspost.ru"
   ],
   "author": "izatop@gmail.com",
   "license": "MIT",
