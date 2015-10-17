@@ -12,13 +12,14 @@ var DataType;
     var Calculation = (function () {
         function Calculation(data) {
             this.price = Number(data.price);
-            this.period = {
-                max: Number(data.term.max),
-                min: Number(data.term.min)
-            };
+            if (data.hasOwnProperty('term')) {
+                this.period = {
+                    max: Number(data.term.max),
+                    min: Number(data.term.min)
+                };
+            }
         }
         return Calculation;
     })();
     DataType.Calculation = Calculation;
 })(DataType = exports.DataType || (exports.DataType = {}));
-//# sourceMappingURL=datatype.js.map

@@ -17,9 +17,11 @@ export module DataType {
 
         constructor(data:ICalculationProperty) {
             this.price = Number(data.price);
-            this.period = {
-                max: Number(data.term.max),
-                min: Number(data.term.min)
+            if (data.hasOwnProperty('term')) {
+                this.period = {
+                    max: Number(data.term.max),
+                    min: Number(data.term.min)
+                }
             }
         }
     }

@@ -6,7 +6,7 @@ interface ILocationProperty {
 
 interface ICalculationProperty {
     price:number;
-    term:{
+    term?:{
         min:number;
         max:number;
     }
